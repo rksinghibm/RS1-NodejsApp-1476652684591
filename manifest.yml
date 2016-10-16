@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: RS1-NodejsApp
+  host: RS1-NodejsApp
+  disk_quota: 1024M
+  services:
+  - RS1-NodejsApp-cloudantNoSQLDB
